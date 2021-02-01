@@ -154,50 +154,50 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| Bycicle Crossing								|
-| .05					| Speed limit 30km/h							|
-| .04	      			| Yield 						 				|
-| .01				    | No entry  									|
+| 1.00					| Stop sign   									| 
+| 0.0					| Bycicle Crossing								|
+| 0.0					| Speed limit 30km/h							|
+| 0.0		 			| Yield 						 				|
+| .01					| No entry  									|
 
 For the second image ... 
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| No vehicle   									| 
-| .20     				| Speed limit 50km/h							|
-| .05					| Yield											|
-| .04	      			| Keep right					 				|
-| .01				    | Priority road									|
+| 1.00					| No vehicle   									| 
+| 0.00					| Speed limit 50km/h							|
+| 0.0					| Yield											|
+| 0.0					| Keep right					 				|
+| 0.0					| Priority road									|
 
 For the third image ... 
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Speed limit 30km/h							| 
-| .20     				| Priority road									|
-| .05					| Speed limit 50km/h							|
-| .04	      			| End of speed limit 80km/h		 				|
-| .01				    | Rondabout mandatory  							|
+| 1.00					| Speed limit 30km/h							| 
+| 0.00					| Priority road									|
+| 0.00					| Speed limit 50km/h							|
+| 0.00					| End of speed limit 80km/h		 				|
+| 0.00					| Rondabout mandatory  							|
 
 For the fourth image ... 
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Speed limit 50km/h							| 
-| .20     				| Speed limit 30km/h							|
-| .05					| Speed limit 80km/h							|
-| .04	      			| Double curbe					 				|
-| .01				    | Speed limit 60km/h   							|
+| 1.00					| Speed limit 50km/h							| 
+| 0.00					| Speed limit 30km/h							|
+| 0.00					| Speed limit 80km/h							|
+| 0.00					| Double curbe					 				|
+| 0.00					| Speed limit 60km/h   							|
 
 For the fifth image ... 
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Children Crossing								| 
-| .20     				| Bycicles Crossing								|
-| .05					| Beware Ice/Snow								|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Dangerous cruve to the right					|
+| 1.00					| Children Crossing								| 
+| 0.00					| Bycicles Crossing								|
+| 0.00					| Beware Ice/Snow								|
+| 0.00					| Bumpy Road					 				|
+| 0.00					| Dangerous cruve to the right					|
 
 
