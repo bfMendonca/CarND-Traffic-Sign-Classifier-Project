@@ -88,7 +88,7 @@ The final model considered was the standart LeNET architecure, but altered so ta
 | Input         		| 32x32x3 RGB image   							| 
 | Convolution 5x5     	| 1x1 stride, valid padding, outputs 28x28x6	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 14x14x6					|
+| Max pooling	      	| 2x2 stride,  outputs 14x14x16					|
 | Convolution 5x5	    | 1x1 stride,  valid padding, outputs 10x10x16	|
 | RELU					|												|
 | Max pooling			| 2x2 stride,  outputs 5x5x16					|
