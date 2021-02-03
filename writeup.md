@@ -117,8 +117,8 @@ Here, drp stands for the droupout.
 
 My final model results were:
 * training set accuracy of 1.00
-* validation set accuracy of 0.972
-* test set accuracy of 0.953
+* validation set accuracy of 0.963
+* test set accuracy of 0.947
 
 The first architecture choosen was based on the LeNET-5 architecture, with minor additions regarding the droupout added between the fully connected layers. As the LeNET was orignally conceived fir digit recognition, it semed to be a good candidate. The Accuracys reported above seemed to be a good indicative that the network is efficient in Traffic sign classification.  
 
@@ -130,6 +130,15 @@ Here are five German traffic signs that I found on the web:
 
 ![alt text][image5] ![alt text][image6] ![alt text][image7] 
 ![alt text][image8] ![alt text][image9]
+
+| Image			        |     Characteristics	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| Stop Sign      		| easy dificult prediction. The image is well centered and clear. Features clear for the given resolution | 
+| No-vehicle 			| easy dificult prediction. The image is well centered and clear. No features or characteristics that require resolution |
+| Speed limit 30km/h	| Medium dificult prediction. Altough the image is image is well centered and clear, coulde be a challenge to not missclassify as other speed limit sign. Also, the image is a little darker than the orthers and seen from an differente angle							|
+| Speed limit 50km/h	| Medium dificult prediction. Altough the image is image is well centered and clear, coulde be a challenge to not missclassify as other speed limit sign |
+| Children Crossing 	| Hard dificult prediction. Altough the image is image is well centered and clear, the resolution doesn't provide high resolution features  |
+
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
